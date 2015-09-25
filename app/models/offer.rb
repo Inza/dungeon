@@ -4,4 +4,5 @@ class Offer < ActiveRecord::Base
   belongs_to :actor
   has_many :budgets
   has_many :actors
+  has_many :user_stories
 end
