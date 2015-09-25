@@ -4,4 +4,5 @@ class Project < ActiveRecord::Base
   has_many :events
   has_many :project_memberships
   has_many :comments
+  has_many :invoices
 end
