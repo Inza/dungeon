@@ -3,4 +3,5 @@ class Budget < ActiveRecord::Base
   belongs_to :user
   has_many :events
   has_many :user_story_evaluations
+  has_many :comments
 end
