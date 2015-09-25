@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
   has_many :events
   belongs_to :offer
   has_many :team_memberships
+  has_many :project_memberships
   def self.find_first_by_auth_conditions(warden_conditions)
     conditions = warden_conditions.dup
     if login = conditions.delete(:login)
