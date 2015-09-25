@@ -5,4 +5,5 @@ class Offer < ActiveRecord::Base
   has_many :budgets
   has_many :actors
   has_many :user_stories
+  has_many :attachments
 end
