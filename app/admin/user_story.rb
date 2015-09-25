@@ -1,4 +1,5 @@
 ActiveAdmin.register UserStory do
+  permit_params :name, :desire, :world_change, :note
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
