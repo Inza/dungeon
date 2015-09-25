@@ -8,4 +8,5 @@ class Offer < ActiveRecord::Base
   has_many :attachments
   has_many :requirements
   has_many :events
+  has_many :comments
 end
