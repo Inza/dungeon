@@ -4,4 +4,5 @@ class UserStory < ActiveRecord::Base
   belongs_to :user_story_category
   has_many :user_story_evaluations
   has_many :events
+  has_many :comments
 end
