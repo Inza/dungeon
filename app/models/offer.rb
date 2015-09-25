@@ -6,4 +6,5 @@ class Offer < ActiveRecord::Base
   has_many :actors
   has_many :user_stories
   has_many :attachments
+  has_many :requirements
 end
